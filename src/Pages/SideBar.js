@@ -17,8 +17,8 @@ function SideBar() {
       <img src= {Logo}></img>
       </div>
       <div className='pages'>
-        <div className='LogOut'>
         <div className='Ad'>
+        <div className='allign'>
         <button className='dash'><img src= {Dash}></img>Dashboard</button>
         <button><img src= {Game}></img>Game Store</button>
         <button><img src= {Live}></img>Live Stream TV</button>
@@ -26,11 +26,14 @@ function SideBar() {
         <button><img src= {Bad}></img>Badges</button>
         <button><img src= {My}></img>My Library <img className='Num' src={Number}></img></button>
         <button><img src= {Trop}></img>Thropies</button>
+        <div>
+        <button className='LogDiv'><img src={LogOut}></img>Log Out</button>
         </div>
-        <div className='LogDiv'>
-          <button className='cool'><img src={LogOut}></img>Log Out</button>
         </div>
         </div>
+          
+        
+        
       </div>
       
     </div>

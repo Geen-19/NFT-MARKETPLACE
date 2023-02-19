@@ -279,7 +279,6 @@ button[type = "submit"] {
   height: 10px;
 }
 .sideBar{
-  border: 1px solid #000;
   max-height: 1250px;
   max-width: 200px;
   display: flex;
@@ -304,6 +303,7 @@ button[type = "submit"] {
   color: #787686;
   font-size: 16px;
 }
+
 .pages button{
   padding-left: 30px;
   display: flex;
@@ -312,6 +312,7 @@ button[type = "submit"] {
 .pages .dash{
   background-color: #4B0ACE;
 }
+
 .Ad button{
   margin-bottom: 20px;
 }
@@ -341,6 +342,9 @@ button[type = "submit"] {
 }
 .Num{
   padding-left: 20px;
+}
+.Ad{
+  display: flex;
 }
 @media only screen and (max-width: 2150px) {
   .rightMenu{
