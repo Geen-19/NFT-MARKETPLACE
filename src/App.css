@@ -293,7 +293,9 @@ button[type = "submit"] {
   flex-direction: column;
   align-items: center;
   padding-bottom: 100px;
+  background-color: #FAFBFC;
 }
+
 .sideBar button{
   border-radius: 15px;
   background-color: #FAFBFC;
@@ -338,7 +340,7 @@ button[type = "submit"] {
   height: 25px;
 }
 .LogDiv{
-  padding-top: 450px;
+  padding-top: 100px;
 }
 .Num{
   padding-left: 20px;
@@ -356,7 +358,7 @@ button[type = "submit"] {
 }
 @media only screen and (max-width: 1800px) {
   .rightMenu{
-    min-height: 1880px;
+    min-height: 1840px;
   }
   .sideBar{
     min-height: 2030px;

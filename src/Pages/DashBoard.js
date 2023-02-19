@@ -60,7 +60,7 @@ KeyCars is a free (multiplayer only) game where each player can play using a sin
             <div className='left'>
             <h3>3D Game Assets Store & Free</h3>
             <h1>High-quality premium & free 3D-game assets</h1>
-            <div className='must'>
+            <div className=''>
             <button><img className='diamond' src= {Diamond}></img><h3>Download Assets</h3></button> 
             </div>
             </div>
