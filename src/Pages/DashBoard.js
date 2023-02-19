@@ -28,7 +28,6 @@ function DashBoard() {
             <button><img src={Download}></img></button>
             <p>148k</p>
             </div>
-            
           </div>
           <div className='Para'>
           <p className='Text'>KeyCars is a free (multiplayer only) game where each player can play using a single key on a keyboard. Press a key to join, then hold that key to turn the vehicle. Clash into players, shoot projectiles or trick them into driving off the ledge…
@@ -40,7 +39,9 @@ KeyCars is a free (multiplayer only) game where each player can play using a sin
           </div>
 
         <div className='price'>
+          <div className='badgeA'>
         <img src={Badge}></img>
+        </div>
           <div className='badge'>
             <h2>8.2</h2>
             <p>Star Game</p>
@@ -57,10 +58,10 @@ KeyCars is a free (multiplayer only) game where each player can play using a sin
         <div className="hero">
           <div className='market'>
             <div className='left'>
-            <h3>3D Dame Assets Store & Free</h3>
+            <h3>3D Game Assets Store & Free</h3>
             <h1>High-quality premium & free 3D-game assets</h1>
-            <div className='cover'>
-            <button><img className='diamond' src= {Diamond}></img><h3>Download Assets</h3></button>
+            <div className='must'>
+            <button><img className='diamond' src= {Diamond}></img><h3>Download Assets</h3></button> 
             </div>
             </div>
             <div className='right'>

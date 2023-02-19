@@ -25,7 +25,7 @@ function SideBar() {
         <button><img src= {Team}></img>Teams Member</button>
         <button><img src= {Bad}></img>Badges</button>
         <button><img src= {My}></img>My Library <img className='Num' src={Number}></img></button>
-        <button><img src= {Trop}></img>Thropies <img className='Num' src={Number}></img></button>
+        <button><img src= {Trop}></img>Thropies</button>
         </div>
         <div className='LogDiv'>
           <button className='cool'><img src={LogOut}></img>Log Out</button>

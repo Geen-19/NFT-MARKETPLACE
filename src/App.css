@@ -85,9 +85,9 @@ button[type = "submit"] {
 }
 
 .rightMenu{
-  width: 370px;
   flex:1;
-  height: 1100px;
+  max-width: 370px;
+  max-height: 1100px;
   order: 2;
   background: #301C57;
   border-radius: 20px;
@@ -173,8 +173,8 @@ button[type = "submit"] {
 
 
 .market{
-  width: 1300px;
-  height: 271px;
+  max-width: 1300px;
+  max-height: 271px;
   background: #4B0ACE;
   border-radius: 20px;
 }
@@ -198,18 +198,15 @@ button[type = "submit"] {
   width: 370px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 .cupImg{
-  padding-left: 50px;
+  padding-top: 50px;
 }
-.badge{
-  padding-right: 50px;
-}
-.badge p{
- 
+.badgeA{
+  padding-top: 50px;
 }
 .market {
+  max-height: 600px;
   display: flex;
   justify-content: space-between;
 }
@@ -282,8 +279,9 @@ button[type = "submit"] {
   height: 10px;
 }
 .sideBar{
-  height: 1024;
-  width: 250px;
+  border: 1px solid #000;
+  max-height: 1250px;
+  max-width: 200px;
   display: flex;
   flex-direction: column;
   padding-bottom:20px ;
@@ -343,4 +341,25 @@ button[type = "submit"] {
 }
 .Num{
   padding-left: 20px;
+}
+@media only screen and (max-width: 2150px) {
+  .rightMenu{
+    min-height: 1450px;
+  }
+  .sideBar{
+    min-height: 1600px;
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .rightMenu{
+    min-height: 1880px;
+  }
+  .sideBar{
+    min-height: 2030px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .market .must{
+    padding-bottom: 20px;
+  }
 }
